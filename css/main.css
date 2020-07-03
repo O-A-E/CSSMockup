@@ -1,20 +1,47 @@
 body
 {
     background-color: lightskyblue;
+     
 }
-header
+header 
 {
-
+    display: flex;
+    background-color: yellow;
+    justify-content: space-between;
+       
 }
-main
+header>nav
 {
-
+    padding: 0 20px;
 }
-main div
+li
 {
-    background-color: white;
+    list-style-type: none;
 }
-footer
+header>nav>ul
 {
-
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 20px;
+}
+input
+{
+    width: 100%;
+    margin-top: 15px;
+}
+nav
+{
+     background-color: white;
+    justify-content: center;
+    margin-right: 20px;
+}
+.logo /* for a class */
+{
+    width: 100px;
+}
+.topics
+{
+    
 }
