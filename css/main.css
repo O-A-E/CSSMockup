@@ -1,13 +1,13 @@
 body
 {
-    background-color: lightskyblue;
+    background-color: white;
      
 }
 header 
 {
-    display: flex;
-    background-color: yellow;
+    display: flex;    
     justify-content: space-between;
+    padding-bottom: ;
     
        
 }
@@ -33,12 +33,12 @@ input
     width: 100%;
     margin-top: 30px;
 }
-nav
+/*nav
 {
-     background-color: white;
+     background-color: lightskyblue;
     justify-content: center;
     margin-right: 20px;
-}
+}*/
 .logo /* for a class */
 {
     width: 100px;
@@ -46,27 +46,29 @@ nav
 }
 .pages
 {
-    background-color: violet;
+    
     display: flex;
     justify-content: space-evenly;
     padding: 20px 80px;
+    border: 2px solid black;
 }
 main
 {
     display: flex;
+    padding-top: 20px;
     
 }
 .section
 {
     padding: 10px 20px 50px 20px;
     width: 40%;
-
-    
+    border: 2px solid black;
+         
 }
 .main-image
 {
     width: 100%;
-   /* padding-bottom: 50px;*/
+    padding-bottom: 20px;
     
 }
 .section>ul>li
@@ -78,10 +80,15 @@ article
     display: flex;
     flex-direction: column;
     padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
 article>section
 {
-    padding-top: 40px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border: 2px solid black;
+    padding-bottom: 20px;
 }
 .rightlinks
 {
@@ -94,20 +101,23 @@ article>section
 }
 .featsection
 {
-    padding: 10px 20px 50px 20px;
-    width: 30%;
+    padding: 10px 10px 50px 20px;
+    width: 80%;
     justify-content: space-around;
+    border: 2px solid black;
+    
 }
 .extsection
 {
     padding: 20px 40px;
+    border: 2px solid black;
 }
 .extsection>div
 {
     display: flex;
     padding: 0 0 30px 0;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
       
 }
 .featsection>ul>li
